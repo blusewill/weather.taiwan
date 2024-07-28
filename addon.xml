@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="weather.taiwan" name="Taiwan Weather" version="1.0.0" provider-name="blusewill">
+<addon id="weather.taiwan"
+       name="Taiwan Weather"
+       version="1.0.2"
+       provider-name="blusewill">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
-    <extension point="xbmc.python.weather" library="default.py">
+    <extension point="xbmc.python.weather" library="main.py">
         <provides>weather</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Taiwan Weather Information</summary>
         <description lang="en">This addon provides weather information from Taiwan's Central Weather Bureau.</description>
-        <platform>all</platform>
         <language>en</language>
+        <platform>all</platform>
     </extension>
     <extension point="xbmc.addon.settings">
         <directory>resources</directory>
