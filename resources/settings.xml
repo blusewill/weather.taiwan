@@ -1,0 +1,31 @@
+<settings>
+    <category label="General Settings">
+        <setting id="api_key" type="password" label="Enter your API Key" default=""/>
+        <setting id="location" type="enum" label="Select City/County" default="Taipei">
+            <value>Keelung</value>
+            <value>Taipei</value>
+            <value>New Taipei</value>
+            <value>Taoyuan</value>
+            <value>Hsinchu</value>
+            <value>Miaoli</value>
+            <value>Taichung</value>
+            <value>Changhua</value>
+            <value>Nantou</value>
+            <value>Yunlin</value>
+            <value>Chiayi</value>
+            <value>Tainan</value>
+            <value>Kaohsiung</value>
+            <value>Pingtung</value>
+            <value>Taitung</value>
+            <value>Hualien</value>
+            <value>Yilan</value>
+            <value>Penghu</value>
+            <value>Kinmen</value>
+            <value>Lienchiang</value>
+        </setting>
+        <setting id="format" type="enum" label="Select Data Format" default="JSON">
+            <value>XML</value>
+            <value>JSON</value>
+        </setting>
+    </category>
+</settings>
